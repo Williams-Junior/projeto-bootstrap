@@ -1,0 +1,47 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{ /*variáveis de css*/
+    --black: #090809;
+    --primary: #00BFFF;
+    --secondary: #1e65ac;
+    --light: #ffffff;
+    --other1: #00bfff;
+    --other: #424242;
+    --bg-color: #f4cac5;   
+}
+
+.bg-blue {
+    background-color: var(--primary);
+}
+
+.bg-footer {
+    background-color: var(--secondary);
+}
+
+.text-white {
+    color: var(--light);
+}
+
+.nav-principal {
+    background-color: var(--light);
+}
+
+i {
+    font-size: 40px;
+    color: var(--other1);
+}
+
+p {
+    font-weight: 500;
+    color: var(--other);
+}
+
+.nav-text {
+    font-weight: 600;
+}
+
+.tm-img {
+    width: 100%;
+}
